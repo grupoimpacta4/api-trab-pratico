@@ -3,14 +3,27 @@
 # Trabalho final API Gateway & Integration
 
 ### Como fazer deploy:
-Entrar no diret�rio do projeto e rodar
+Entrar no diretório do projeto e rodar
 ```
 mvn spring-boot:run 
 ```
 
-### Documenta��o da API
-Para ver a documenta��o completa da API, entrar no seguinte endere�o
+### Documentação da API
+Para ver a documentação completa da API, entrar no seguinte endereço
 ```
-http://localhost:8080/swagger-ui
+http://localhost:8080/swagger-ui/index.html#
 ``` 
- 
+
+### Observações
+Para rodar o projeto será necessário ter o Mysql instalado. 
+As api construídas precisar de uma api-key para rodar , caso não usemos a api-key elas devem retorna 403(Forbidden)
+Inicialmente utilizamos duas api-key já pré-cadastradas em nossos bancos: 
+Api key 1   -  36b5ae58-56a6-43e3-b474-0ffb7b4ae227
+Api key 2   -  aec093c2-c981-44f9-9a4a-365ad1d2f05e
+
+Podemos cadastrar mais keys na tabela auth de nosso banco ( api-key , email).
+
+
+
+
+  
