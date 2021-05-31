@@ -15,7 +15,7 @@ http://localhost:8080/swagger-ui/index.html#
 ``` 
 
 ### Observações
-Para rodar o projeto será necessário ter o Mysql instalado. 
+Para rodar o projeto será necessário ter o Mysql instalado. \n
 As api construídas precisar de uma api-key para rodar , caso não usemos a api-key elas devem retorna 403(Forbidden)
 Inicialmente utilizamos duas api-key já pré-cadastradas em nossos bancos: 
 Api key 1   -  36b5ae58-56a6-43e3-b474-0ffb7b4ae227
